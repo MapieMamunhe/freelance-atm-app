@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Barclays</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <div id="corpo">
+      <div class="formulario-login">
+        <nav>
+          <a
+            class="btn bg-dark text-light"
+            style="position: absolute; top: 3px; left: 5px"
+            href="/sair.php"
+            >Sair</a
+          >
+        </nav>
+        <ul class="bullets">
+          <a class="btn bg-light" href="./operacoes/compra.php?id=0">
+            <li>Comprar Credelec</li>
+          </a>
+          <a class="btn bg-light" href="./operacoes/compra.php?id=1">
+            <li>Comprar Credito</li>
+          </a>
+          <a class="btn bg-light" href="./operacoes/saldo.php">
+            <li>Ver saldo</li>
+          </a>
+          <a class="btn bg-light" href="./operacoes/levantar.php">
+            <li>Levantar dinheiro</li>
+          </a>
+          <a class="btn bg-light" href="./operacoes/movimentos.php">
+            <li>Ver movimentos</li>
+          </a>
+        </ul>
+      </div>
+      <div class="msg"></div>
+    </div>
+  </body>
+</html>

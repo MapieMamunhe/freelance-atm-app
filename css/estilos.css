@@ -46,3 +46,13 @@ body {
 input {
   color: black;
 }
+.bullets {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+ul a {
+  margin: 5px;
+}
