@@ -19,7 +19,7 @@ body {
 .msg {
   height: 100%;
   width: 50%;
-  background-image: url("../barclays.jpg");
+  background-image: url("../images/barclays.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
