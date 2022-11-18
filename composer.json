@@ -1,0 +1,17 @@
+{
+    "name": "codespace/freelance-atm-app",
+    "description": "Freelance app that simulates an ATM",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Codespace\\FreelanceAtmApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mapie Victorino Mamunhe",
+            "email": "mmamunhe@gmail.com"
+        }
+    ],
+    "require": {}
+}
